@@ -7,23 +7,24 @@ a su opción  y le informaremos si ganó, empató o perdió.
 var eleccionMaquina;
 
 function comenzar()
-{
-	
+{   
+	eleccionMaquina = parseInt (Math.random () * (4-1) + 1) ;
+	console .log (eleccionMaquina);
 
 
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
-	
+	console.log (piedra)
 
 }//FIN DE LA FUNCIÓN
 function papel()
 {
-
+    console.log (papel)
 
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
-	
+    console.log (tijera)
 
 }//FIN DE LA FUNCIÓN

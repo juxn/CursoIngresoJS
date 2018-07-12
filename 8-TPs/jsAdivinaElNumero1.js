@@ -14,8 +14,8 @@ function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
 	 
-Math.random () * (100 + 1) - 1;
-alert (random);
+  numeroSecreto = parseInt (Math.random () * (101-1) + 1) ;
+	console .log (numeroSecreto);
 
 
 		//alert(numeroSecreto );
@@ -25,6 +25,12 @@ alert (random);
 
 function verificar()
 {
-	
-	
-}
+	var numero = document.getElementById("numero").value;
+  numero = parseInt (numero);
+	cont = cont + 1;
+	if (numero == numeroSecreto); {
+	alert ("gano"); 
+	} else if ( numero > numeroSecreto ); {
+    alert ("usted ha perdido");
+  
+  }  

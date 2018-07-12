@@ -16,13 +16,16 @@ function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
 	 
-	
+	numeroSecreto = parseInt (Math.random () * (101-1) + 1) ;
+	console .log (numeroSecreto);
 
 }
 
 function verificar()
 {
-	
-	
+	var numero = document.getElementById("Numero").value;
+	cont = cont +1;
+	if (numero == numeroSecreto) {
+	alert ("gano")
 
 }
