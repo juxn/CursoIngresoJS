@@ -14,6 +14,10 @@ function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
 	 
+Math.random () * (100 + 1) - 1;
+alert (random);
+
+
 		//alert(numeroSecreto );
 	
 
