@@ -12,13 +12,62 @@ function CalcularPrecio ()
 {       
     var cantidad;
     var marca;
-    var preciodescuento; 
-    var precio;
+    var descuento;
+    var totalbruto;
+    var totalcondescuento
+
     cantidad = document.getElementById("Cantidad").value;
-    precio = 35;
+    marca = document.getElementById("Marca").value;
+
+    totalbruto = cantidad * 35;
+
+    document.getElementById("precioDescuento").value = totalbruto; //new// 
+
+    if (cantidad >= 6)
+    {
+        descuento = totalbruto * 0.5;
+    }
+    else 
+    {
+        if (cantidad == 5 && marca == "ArgentinaLuz")
+        {
+            if ( marca == "ArgentinaLuz")
+            {
+            descuento - totalbruto * 0.4;
+            }
+        }
+    else
+    {
+        descuento = totalbruto * 0.3;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    /* totalcondescuento = totalbruto - descuento;
+
+    document.getElementById("precioDescuento").value = totalcondescuento; */
+
+    
+
+
+    /*precio = 35;
     cantidad = parseIn (cantidad);
-    if (cantidad = 6) {
-        alert (cantidad * precio - 10) {
+    if (cantidad = 6) 
+    {
+        alert (cantidad * precio - 10) 
+    }
 
 
     if (cantidad = 4) && (marca = "ArgentinaLuz" || "felipelamparas"));
@@ -26,7 +75,7 @@ function CalcularPrecio ()
     if (cantidad = 5 && marca = "ArgentinaLuz");
     else if (cantidad = 5 && marca != "ArgentinaLuz");
 
-    if ( cantidad = 3 && marca = "ArgentinaLuz" );
+    if ( cantidad = 3 && marca = "ArgentinaLuz" ); */
 
 
 

@@ -4,16 +4,24 @@ function mostrar()
     var edad;
     edad = document.getElementById("edad").value;
     edad = parseInt (edad);
-    if (edad > "17") {
-        msg ("es adulto");
-        } else {
-    if (edad < "13") {
-        msg ("es niño"); {
-        } else {
-        msg ("es adolescente");
+
+
+    if (edad < 13) 
+    {
+        alert ("es un niño");
+    }  
+    else 
+    {   
+        if ( (edad >= 13) && (edad <= 17) ) 
         {
-            alert (msg);
+        alert ("es adolescente"); 
+        } 
+        else 
+        { 
+        alert ("es mayor"); // aqui habia error,no hacia falta aclarar que era mas de 17, solo else porque es lo que queda y ya //
+        }
+    }
 
 
-
-}//FIN DE LA FUNCIÓN
+}
+//FIN DE LA FUNCIÓN//

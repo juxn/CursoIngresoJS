@@ -27,10 +27,14 @@ function verificar()
 {
 	var numero = document.getElementById("numero").value;
   numero = parseInt (numero);
-	cont = cont + 1;
-	if (numero == numeroSecreto); {
+
+	if (numero === numeroSecreto); 
+	{
 	alert ("gano"); 
-	} else if ( numero > numeroSecreto ); {
+	}  
+			if ( numero > numeroSecreto )
+	{
     alert ("usted ha perdido");
   
+		} 
   }  
