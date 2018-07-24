@@ -1,12 +1,26 @@
 function mostrar()
-{
+{	
+	var cont = 0;
+	var numero;
+	var suma = 0;
+	var promedio;
+	
+	while ( cont <  5 ); {
+	cont++;
+	numero = prompt ();
+	numero = parseint (numero);
+	{ suma = suma + numero;
+	{ suma +  numero;
 
-	var contador=0;
-	var acumulador=0;
 
+
+
+}
+}
+}
 
 
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/5;
 
-}//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN1

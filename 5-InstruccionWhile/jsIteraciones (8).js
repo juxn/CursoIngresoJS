@@ -6,6 +6,10 @@ function mostrar()
 	var negativo=1;
 	
 	var respuesta='si';
+	
+	while ( respuesta == 'si' ) {
+		cont++;
+		
 
 
 document.getElementById('suma').value=positivo;
