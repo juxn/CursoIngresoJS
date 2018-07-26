@@ -9,5 +9,24 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
+    var edad;
+    var sexo;
+    var estadoCivil;
+    var sueldo;
+    var legajo;
+    var nacionalidad;
+
+    edad = prompt("Ingrese su edad.");
+    
+    sexo = prompt("ingrese M para Masculino y F para femenino");
+
+    estadoCivil = prompt("Ingrese su estado civil, marque 1 para soltero, 2 para casado, 3 para divorciados y 4 para viudos");
+    
+    sueldo = prompt("ingrese su sueldo bruto, recuerde que no puede ser menor a 8000");
+
+    legajo = prompt("ingrese su nùmero de legajo");
+    
+    nacionalidad = prompt("ingrese su nacionalidad, marque A si es argentino, E si es extranjero y N si es nacionalizado");
+
+
 }
