@@ -1,15 +1,19 @@
 
 function mostrar()
-{   var altura; 
+{   
+    var base = parseInt(base);
+    var altura = parseInt(altura);
     var resultado;
-    base = document.getElementById("base").value;
-    altura = document.getElementById("altura").value;
-    prompt = base;
-    prompt = altura;
-    base = parseInt (base);
-    altura = parseInt (altura);
-    resultado = base * altura / 2; 
-    alert (resultado)
+    var resultado2;
+    base = prompt("inserte la base");
+    altura = prompt("inserte la altura");
+    resultado = base * altura / 2;
+    resultado2 = altura * 3;
+    alert ("la superficie del triangulo es "+resultado+" y su perimetro es "+resultado2);
+
+
+    
+
 
 
 }

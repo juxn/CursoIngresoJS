@@ -1,7 +1,8 @@
 function mostrar()
 {
-    for(var repetir; repetir=0; repetir++ ){
+    for(var repetir=0; repetir; repetir++ ){
         alert (repetir);
+        break;
     }
 
 
